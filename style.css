@@ -1,0 +1,45 @@
+html, body{
+    height: 100%;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.roof{
+    border-bottom: 100px solid #ba6eed;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    width: 0px;
+    height: 0px;
+}
+
+.wall{
+    width: 200px;
+    height: 150px;
+    background-color: #6a4a0a;
+    position: relative;
+    border: none;
+}
+
+.window{
+    border: 100px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    position: absolute;
+    margin-top:50px;
+    margin-left: 70px;
+}
+
+.chimney{
+    width: 25px;
+    height: 90px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 60px;
+    background-color: #513908;
+}
